@@ -1,0 +1,157 @@
+.app-container {
+  height: 200vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgb(221, 221, 162),
+    rgb(215, 226, 233)
+  );
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.image-container {
+  padding-left: 100px;
+  width: 30%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  height: auto;
+  padding-right: 20px;
+}
+
+.award-image {
+  height: 500px;
+  width: 55%;
+}
+
+.logo-image {
+  height: 80px;
+  width: 300px;
+  padding-left: 20px;
+}
+
+.heading {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.li-heading {
+  font-size: 12px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.award-img {
+  height: 400px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.par-img {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+.par {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.par-p {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding-left: 35px;
+}
+.missions-img {
+  height: 300px;
+  width: 90%;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.par-pp {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Roboto";
+  text-align: center;
+  padding-top: 10px;
+}
+hr {
+  border: 2px solid rgb(204, 70, 29);
+  width: 95%;
+}
+.par-ppp {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Roboto";
+  text-align: center;
+}
+.par-ppv {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-align: center;
+  padding-left: 10px;
+}
+.footer {
+  height: 90px;
+  width: 97%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(238, 92, 92);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.call {
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding-top: 5px;
+}
+.globe {
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding-top: 5px;
+}
+.container {
+  padding-left: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 40px;
+}
+.container-m {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 40px;
+}
+.container-a {
+  padding-right: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.color {
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: "Roboto";
+  padding-left: 2px;
+}
